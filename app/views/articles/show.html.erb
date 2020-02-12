@@ -1,0 +1,8 @@
+<h1>Showing latest created articles</h1>
+<ul>
+  <li> Title: <%= @article.title %> </li>
+  <li> Description: <%= @article.description %> </li>
+</ul>
+
+<%= link_to 'Edit article', edit_article_path %> |
+<%= link_to 'Go back', articles_path %>
